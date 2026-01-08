@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Auto History Cleaner 自动版",
+  "version": "1.0",
+  "description": "自动清理浏览器历史记录，保护隐私",
+  "permissions": [
+    "history",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
